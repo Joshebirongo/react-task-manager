@@ -1,4 +1,4 @@
-import { Router, Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 // Import the components and pages
 import Navbar from "./components/Navbar";
@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/tasks" element={<Tasks />}></Route>
         <Route path="/tasks/:id" element={<TaskDetails />}></Route>
-        <Route path="/about" element={<Aboute />}></Route>
+        <Route path="/about" element={<About />}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </>
