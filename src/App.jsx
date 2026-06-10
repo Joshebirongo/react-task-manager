@@ -8,8 +8,11 @@ import Dashboard from "./pages/Dashboard";
 import Tasks from "./pages/Tasks";
 import TasksMenu from "./pages/TasksMenu";
 import TaskDetails from "./pages/TaskDetails";
+import Profile from "./pages/Profile";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Settings from "./pages/Settings";
+import Reports from "./pages/Reports";
 
 export default function App() {
   return (
@@ -26,6 +29,12 @@ export default function App() {
         <Route path="/tasksMenu" element={<TasksMenu />} />
 
         <Route path="/tasks/:id" element={<TaskDetails />} />
+
+        <Route path="/profile" element={<Profile />} />
+
+        <Route path="/settings" element={<Settings />} />
+
+        <Route path="/reports" element={<Reports />} />
 
         <Route path="/about" element={<About />} />
 
