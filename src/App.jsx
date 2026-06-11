@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Tasks from "./pages/Tasks";
 import TasksMenu from "./pages/TasksMenu";
+import CreateTask from "./pages/CreateTask";
 import TaskDetails from "./pages/TaskDetails";
 import Profile from "./pages/Profile";
 import About from "./pages/About";
@@ -26,9 +27,11 @@ export default function App() {
 
         <Route path="/tasks" element={<Tasks />} />
 
-        <Route path="/tasksMenu" element={<TasksMenu />} />
+        <Route path="/tasks/Menu" element={<TasksMenu />} />
 
         <Route path="/tasks/:id" element={<TaskDetails />} />
+
+        <Route path="/tasks/new" element={<CreateTask />} />
 
         <Route path="/profile" element={<Profile />} />
 
