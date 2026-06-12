@@ -17,6 +17,7 @@ import NotFound from "./pages/NotFound";
 import Notifcations from "./pages/Notifications";
 import Settings from "./pages/Settings";
 import Reports from "./pages/Reports";
+import Help from "./pages/Help";
 
 export default function App() {
   return (
@@ -47,6 +48,8 @@ export default function App() {
         <Route path="/settings" element={<Settings />} />
 
         <Route path="/reports" element={<Reports />} />
+
+        <Route path="/help" element={<Help />} />
 
         <Route path="/about" element={<About />} />
 

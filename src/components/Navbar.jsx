@@ -26,6 +26,8 @@ export default function Navbar() {
       <Link to="/reports">Reports</Link>
       <br />
       <Link to="/about">About</Link>
+      <br />
+      <Link to="/help">Help</Link>
     </nav>
   );
 }
