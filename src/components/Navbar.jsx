@@ -1,33 +1,60 @@
 import { Link } from "react-router-dom";
+import "../styles/style.css";
 
 export default function Navbar() {
   return (
-    <nav>
-      <Link to="/">Home</Link>
+    <nav className="navbar">
+      <Link to="/" className="nav-link">
+        Home
+      </Link>
       <br />
-      <Link to="/dashboard">Dashboard</Link>
+      <Link to="/dashboard" className="nav-link">
+        Dashboard
+      </Link>
       <br />
-      <Link to="/tasks">Tasks</Link>
+      <Link to="/tasks" className="nav-link">
+        Tasks
+      </Link>
       <br />
-      <Link to="/tasks/menu">Tasks Menu</Link>
+      <Link to="/tasks/menu" className="nav-link">
+        Tasks Menu
+      </Link>
       <br />
-      <Link to="/tasks/new">Create Task</Link>
+      <Link to="/tasks/new" className="nav-link">
+        Create Task
+      </Link>
       <br />
-      <Link to="/notifications">Notifications</Link>
+      <Link to="/notifications" className="nav-link">
+        Notifications
+      </Link>
       <br />
-      <Link to="/activities">Activities</Link>
+      <Link to="/activities" className="nav-link">
+        Activities
+      </Link>
       <br />
-      <Link to="/profile">Profile</Link>
+      <Link to="/profile" className="nav-link">
+        Profile
+      </Link>
       <br />
-      <Link to="/team">Team</Link>
+      <Link to="/team" className="nav-link">
+        Team
+      </Link>
       <br />
-      <Link to="/settings">Settings</Link>
+      <Link to="/settings" className="nav-link">
+        Settings
+      </Link>
       <br />
-      <Link to="/reports">Reports</Link>
+      <Link to="/reports" className="nav-link">
+        Reports
+      </Link>
       <br />
-      <Link to="/about">About</Link>
+      <Link to="/about" className="nav-link">
+        About
+      </Link>
       <br />
-      <Link to="/help">Help</Link>
+      <Link to="/help" className="nav-link">
+        Help
+      </Link>
     </nav>
   );
 }
