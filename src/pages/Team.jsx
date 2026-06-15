@@ -3,9 +3,11 @@ import PageHeader from "../components/PageHeader";
 
 export default function Team() {
   return (
-    <div>
-      <PageHeader title="Team" />
-      <TeamList />
-    </div>
+    <section>
+      <div>
+        <PageHeader title="Team" />
+        <TeamList />
+      </div>
+    </section>
   );
 }

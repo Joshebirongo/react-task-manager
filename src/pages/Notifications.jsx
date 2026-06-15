@@ -3,10 +3,12 @@ import NotifcationList from "../components/NotificationList";
 
 export default function Notifcations() {
   return (
-    <div>
-      <PageHeader title="Notifications" />
+    <section>
+      <div>
+        <PageHeader title="Notifications" />
 
-      <NotifcationList />
-    </div>
+        <NotifcationList />
+      </div>
+    </section>
   );
 }

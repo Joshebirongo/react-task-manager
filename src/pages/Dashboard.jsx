@@ -8,10 +8,11 @@ export default function Dashboard() {
       <Sidebar />
 
       <main>
-        <h1>Dashboard</h1>
+        <section>
+          <h1>Dashboard</h1>
 
-        <UserCard />
-
+          <UserCard />
+        </section>
         <DashboardStats />
       </main>
     </div>
